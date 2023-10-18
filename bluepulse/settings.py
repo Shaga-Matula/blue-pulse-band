@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-shagamatula-bluepulseba-qkmrci6ez41.ws-eu105.gitpod.io', 'localhost']
+ALLOWED_HOSTS = ['8000-shagamatula-bluepulseba-qkmrci6ez41.ws-eu105.gitpod.io', 'localhost', 'bluepulse-dd8c535d72a7.herokuapp.com']
 
 
 # Application definition

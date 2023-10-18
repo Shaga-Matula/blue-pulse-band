@@ -1,1 +1,1 @@
-web: gunicorn bandgrooves.wsgi:application
+web: gunicorn bluepulse.wsgi:application
