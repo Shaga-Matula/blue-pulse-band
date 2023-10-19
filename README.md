@@ -119,5 +119,61 @@
 * The user story template in this project includes three sections: Estimation Effort, Tasks, and Acceptance Criteria. The Estimation Effort section uses the Fibonacci sequence to estimate the amount of effort required to complete each task. The Tasks section lists the specific tasks that need to be completed to achieve the user story. The Acceptance Criteria section lists the criteria that must be met for the user story to be considered complete.
 * The use of the Fibonacci sequence in the Estimation Effort section is a common practice in Agile software development. The Fibonacci sequence is a numerical sequence in which each number is the sum of the two preceding numbers. The sequence is often used in Agile software development to estimate the amount of effort required to complete a task. The sequence is used because it allows for a more accurate estimation of effort, as it takes into account the uncertainty and complexity of software development.
 * The user story template in this project is a useful tool for Agile software development teams. It provides a structured and concise format for capturing user requirements and helps to ensure that the development team understands and implements them correctly. By using this template, the development team can work more efficiently and effectively, resulting in a higher quality product that meets the needs of the users.
-
 <hr>
+
+<img src="static/images/readme/userstories.png" alt="User Story Template Image" height="300">
+
+
+
+## User Stories for Blue Pulse's Website with Agile Style:
+* As a new visitor to Blue Pulse's website, I want to easily navigate the website menu, so that I can quickly find the information I am looking for.
+* As a fan of Blue Pulse, I want to be able to listen to their latest tracks and access their music on various platforms, so that I can enjoy their music easily.
+* As a potential customer of Blue Pulse's merchandise, I want to be able to view their merchandise and purchase it easily, so that I can show my support for the band.
+* As a fan of Blue Pulse, I want to be able to read their latest news and blog posts, so that I can stay up-to-date with the band's activities and creative process.
+* As a potential customer of Blue Pulse, I want to be able to contact the band easily, so that I can book them for a gig or send them a message.
+* As a member of Blue Pulse, I want to be able to customize the website template to reflect the band's personality and style, so that the website accurately represents the band.
+* As a member of Blue Pulse, I want to be able to integrate the website with the band's social media accounts, so that fans can easily follow and engage with the band on different platforms.
+* As a member of Blue Pulse, I want to be able to create engaging content for the website, including the band's latest news, music, and merchandise, so that fans can stay up-to-date with the band's activities.
+* As a member of Blue Pulse, I want to be able to ensure that the website is designed to be responsive, so that it is easily accessible and viewable on different devices, including desktops, laptops, tablets, and smartphones.
+* As a member of Blue Pulse, I want to be able to maintain consistent branding throughout the website, including the use of the band's logo, colors, and fonts, so that the website accurately represents the band's personality and style.
+
+
+## These user stories can help guide the development of Blue Pulse's website with an agile style, ensuring that the website meets the needs of the band's fans and potential customers.
+
+# Technologies
+
+## Coding Languages
+* HTML
+* CSS
+* Python 3
+* Javascript
+
+## Technologies Used
+* Git - Version control system.
+* GitHub - Managing Git repositories.
+* Gitpod - Development environment.
+* Icon library for producing icons on websites.
+* Google Fonts - Collection of free, open-source fonts for importing into websites.
+* Psycopg2 - PostgreSQL adapter for Python.
+* Django 3.2.16 - A Python web framework for rapid development.
+* Gunicorn - Python HTTP server for WSGI applications.
+* Heroku Platform - A cloud-based platform for deploying and managing web applications.
+* Crispy Forms - A Python package for formatting forms in Django.
+* Website Mockup Generator - A tool for creating mockups of websites on different screen sizes.
+* Balsamiq - A wireframing tool for producing mockups of websites.
+* Bootstrap 5 - A front-end framework for building responsive websites.
+* AWS - A cloud-based image and video management platform for storing media assets.
+* Microsoft Paint - Editor for images
+* Microsoft Word 2010
+* Responsinator 
+* QuickDBD 
+
+## Validation
+* WC3 Validator - Used to validate the HTML code of the site.
+* Jigsaw W3 Validator- Used to validate the CSS of the site.
+* Jshint - Used to validate the Javascript of the site.
+* Pycodestyle - Used to validate code against Python conventions.
+* Chrome dev tools (Lighthouse) - Used to measure site performance, SEO and accessibility.
+* WAVE Validator - Used to evaluate site accessibility
+
+## keyword, Description(Meta)
