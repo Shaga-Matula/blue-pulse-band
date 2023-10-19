@@ -54,3 +54,56 @@
 * Integrate Social Media: The website will be integrated with the band's social media accounts, making it easy for fans to follow and engage with the band on different platforms.
 
 * Overall, the design of Blue Pulse's website will reflect the band's personality and style, while providing a comprehensive overview of the band and their music to their fans and potential new listeners. By using "will" instead of "should," the band is making a commitment to take action and achieve their goals in designing their website.
+
+## Blue Pulse Balsamic Mockup 
+* Blue Pulse's website will have a unique design that includes balsamic drawings to showcase the band's personality and style. The website will have different sections, including Home, Bio, Music, Store, Blog, and Contact. Here is a description of each section:
+
+### Landing Page/Home: 
+* The landing page Balsamic Drawing: This page reflects the mood and personality of the band. It will also include a brief introduction to the band and their latest news.
+
+<img src="static/images/readme/landingpage.png"  alt="Landing Page"  width="500">
+
+### Bio Page
+*  Bio Balsamic Drawing: This page showcases the band's history, members, and musical influences. It will provide a detailed overview of the band's journey and how they got to where they are today.
+
+<img src="static/images/readme/biopage.png"  alt="Bio Page"  width="500">
+
+### Music Page
+* Music Page Balsamic Drawing: This page reflects the mood and style of the band's music. It will contain their latest tracks and links to their music on various platforms, making it easy for fans to access their music.
+
+<img src="static/images/readme/musicpage.png"  alt="Music Page"  width="500">
+
+### Store Page
+* Store Page Balsamic Drawing : In this section, fans can buy their merchandise, including t-shirts, posters, and CDs, to show their support for the band. The balsamic drawing helps to showcase the band's merchandise and reflect their style during devolopment.
+
+<img src="static/images/readme/storepage.png"  alt="Music Page"  width="500">
+
+### Blog Page
+* Blog Page Balsamic Drawing : This section will have a page that reflects the band's personal lives and creative process. It is where the band shares their thoughts on music, life, and everything in between using the guid of Balsamic Drawings.
+
+<img src="static/images/readme/blogpage.png"  alt="Music Page"  width="500">
+
+### Contact Page
+*  Contacts Page Balsamic Drawing: In this section, fans can send them a message, book them for a gig, or just say hello, making it easy for fans to connect with the band. The balsamic drawing will help devolop the page to reflect the band's personality and style.
+
+<img src="static/images/readme/contactpage.png"  alt="Music Page"  width="500">
+
+### Overall, the design of Blue Pulse's website using balsamic drawings as a design tool will guide and reflect the band's personality and style, while providing a comprehensive overview of the band and their music to their fans and potential new listeners.
+
+
+### COLOR Pallet
+
+* Thankyou to HookAgency for Pallett idea. 
+* [Link to HookAgency](https://hookagency.com/blog/web-design-color-palettes/)
+
+<img src="static/images/readme/colorpallet.png"  alt="Color Pallet" height="300" width="300">
+
+
+
+.dark-gold {color: #8E793E}
+
+.light-gold {color: #AD974F}
+
+.intellectual-grey {color: #231F20}
+
+.light-grey {color: #EAEAEA}
