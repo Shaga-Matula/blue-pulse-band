@@ -177,3 +177,51 @@
 * WAVE Validator - Used to evaluate site accessibility
 
 ## keyword, Description(Meta)
+#####################
+#####################
+
+## Deployment
+
+## Version Control
+- The Site was created using gitpod workspace and pushed to github.
+- git add . - This command was used to add the file(s) to the staging area before they are committed.
+- git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+- git push - This command was used to push all committed code to the repository on github.
+
+## Heroku 
+
+- Requirement and Procfile
+- Before deployment on Heroku, two files need to be created and be up to date, a requirements.txt file and a Procfile.
+- The requirements.txt file is created by executing the following command in the terminal window:  pip3 freeze --local > requirements.txt. A file with all requirements will be  created.
+- Then create a file named Procfile and insert the following code: web: gunicorn welovedogs.wsgi, with no empty lines after it.
+- Then make sure to push these files to your repository.
+
+## Creating Heroku App
+
+- Log into Heroku and go to the Dashboard.
+- Click "New" and then select "Create new app".
+- Give your app a name and select the region closest to you.
+- Click "Create app" to confirm.
+- Creating a database
+
+## ElephantSql
+
+- Log into ElephantSQL.com and access your dashboard.
+- Click "Create New Instance"
+- Set up a plan, give your plan a Name, select the Tiny Turtel (Free) plan, leave the Tags field blank.
+- Select "Select Region" and select a data center new you.
+- Click "Review".
+- Confirm your details and then click "Create instance".
+- Return to the ElephantSQL dashboard and click on the database instance name for this project.
+- In the URL section, click the copy icon to copy the database URL.
+- In your workspace make sure django and gunicorn are installed by running pip3 install 'django<4' gunicorn.
+- Equally make sure that infrastructure for the database is installed by running pip3 install dj_database_url===0.5.0 psycopg2.
+- Update the requirements.txt file if needed.
+
+## env.py file
+
+- If you do not have a env.py file in your workspace create one and make sure it is included in the .gitignore file.
+- At the top of the env.py file add the line: import os.
+- Below that add the following two lines:
+- os.environ["DATABASE_URL"] = "<copied URL from SQL database>"
+- os.environ["SECRET_KEY"] = "<create a secret key of your own>"
