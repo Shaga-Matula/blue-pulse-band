@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'whitenoise',
     'home',
 ]
 
@@ -60,6 +61,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', # Needed for Heroku\Css
 ]
 
 ROOT_URLCONF = 'bluepulse.urls'
@@ -105,7 +107,7 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'bluepulse.wsgi.application'
 
 
-
+WHITENOISE_AUTOREFRESH = True
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
