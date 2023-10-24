@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'cloudinary_storage',
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'cloudinary',
     'django.contrib.sites',
@@ -108,7 +109,6 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'bluepulse.wsgi.application'
 
 
-WHITENOISE_AUTOREFRESH = True
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
